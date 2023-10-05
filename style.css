@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+button {
+    border-color: #7f024c;
+    color: #7f024c;
+    font-size: large;
+    background-color: #F7a9d7;
+    border-radius: 15%;
+    height: 10vh;
+    aspect-ratio: 1;
+    cursor: pointer;
+    margin: 0.5vh;
+}
+
+p {
+    border-color: #7f024c;
+    color: #7f024c;
+    font-size: large;
+    background-color: #F7a9d7;
+    border-radius: 15%;
+    height: 10vh;
+    margin: 0.5vh;
+    box-sizing: border-box;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+
+#formula_field {
+    width: 44vh;
+}
+
+#solution {
+    width: 32vh;
+}
+
+#calculator_area {
+    display: flex;
+    flex-direction: column;
+    width: 44vh;
+}
+
+.row {
+    display: flex;
+}
+
